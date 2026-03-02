@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 82.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "structures"
+requires-python = ">= 3.10"
+version = "0.1.0"
+authors = [{name = "ghxstly21", email = "migtav28@bergen.org"}]
+maintainers = [{name = "ghxstly21", email = "migtav28@bergen.org"}]
+description = "Implementation of various data structures."
+readme = "README.md"
+license = "MIT"
+license-files = "LICENSE"
+keywords = ["data structures", "algorithm", "education", "teaching", "tutor"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Education",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Typing :: Typed"
+]
+[project.urls]
+Repository = "https://github.com/ghxstly21/structures"
